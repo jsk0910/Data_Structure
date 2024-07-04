@@ -11,9 +11,9 @@ class Node:
     def getPrev(self):
         return self.__prev
 
-    def setItem(self, item=None)
+    def setItem(self, item=None):
         self.__item = item
-    def setNext(self, next=None)
+    def setNext(self, next=None):
         self.__next = next
-    def setPrev(self, prev=None)
+    def setPrev(self, prev=None):
         self.__prev = prev
