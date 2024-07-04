@@ -26,4 +26,9 @@ Node* GetNodeAt(int Location);
 int isEmpty(Node** LinkedList);
 int GetNodeCount(Node** LinkedList);
 
+// 링크드리스트의 인터페이스 함수들
+Node** makeList();
+void append(ElementType item);
+void pop();
+
 #endif

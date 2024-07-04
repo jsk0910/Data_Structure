@@ -8,3 +8,8 @@ Node* createNode(ElementType item) {
 
     return NewNode;
 }
+
+Node* destroyNode(Node* RemoveNode) {
+    free(RemoveNode);
+}
+
