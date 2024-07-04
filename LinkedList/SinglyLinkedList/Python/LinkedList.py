@@ -13,3 +13,18 @@ class LinkedList:
     
     def isEmpty(self):
         return self.getNodeCount() == 0
+    
+    def insertAfter(self, NewNode):
+        pass
+
+    def removeNode(self, RemoveNode):
+        pass
+
+    def searchNode(self, Location):
+        pass
+    
+    def append(self, item):
+        pass
+
+    def pop(self):
+        pass
