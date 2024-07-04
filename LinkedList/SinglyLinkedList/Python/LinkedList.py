@@ -10,3 +10,6 @@ class LinkedList:
     
     def getNodeCount(self):
         return self.__count
+    
+    def isEmpty(self):
+        return self.getNodeCount() == 0

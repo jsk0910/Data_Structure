@@ -22,7 +22,6 @@ void removeNode(Node* NewNode);
 void searchNode(int Location);
 
 // 링크드리스트의 추가 제공 함수들
-Node* GetNodeAt(int Location);
 int isEmpty(Node** LinkedList);
 int GetNodeCount(Node** LinkedList);
 
