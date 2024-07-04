@@ -15,7 +15,7 @@ class SinglyLinkedList(LinkedList):
         pass
 
 def test():
-    LinkedList()
+    SinglyLinkedList()
 
 if __name__ == "__main__":
     test()
