@@ -5,7 +5,7 @@ class SinglyLinkedList(LinkedList):
     def __init__(self):
         super().__init__()
     
-    def insertAfter(self, NewNode:Node):
+    def insertAfter(self, i, NewNode:Node):
         pass
 
     def removeNode(self, RemoveNode:Node):

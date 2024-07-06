@@ -14,7 +14,7 @@ class LinkedList:
     def isEmpty(self):
         return self.getNodeCount() == 0
     
-    def insertAfter(self, NewNode):
+    def insertAfter(self, i, NewNode):
         pass
 
     def removeNode(self, RemoveNode):
