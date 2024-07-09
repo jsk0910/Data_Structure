@@ -5,7 +5,7 @@ class LinkedList:
         self.__head = None
         self.__count = 0
 
-    def getHead(self):
+    def getHead(self)->Node:
         return self.__head
     
     def getNodeCount(self):
