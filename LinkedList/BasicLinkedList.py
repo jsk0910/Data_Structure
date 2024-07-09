@@ -1,6 +1,6 @@
-from Node import *
+from LinkedList.Node import *
 
-class LinkedList:
+class BasicLinkedList:
     def __init__(self):
         self.__head = None
         self.__count = 0

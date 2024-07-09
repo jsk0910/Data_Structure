@@ -1,7 +1,7 @@
-from LinkedList.SinglyLinkedList.Python import *
-from Node import *
+from LinkedList.BasicLinkedList import *
+from LinkedList.Node import *
 
-class SinglyLinkedList(LinkedList):
+class SinglyLinkedList(BasicLinkedList):
     def __init__(self):
         super().__init__()
     
