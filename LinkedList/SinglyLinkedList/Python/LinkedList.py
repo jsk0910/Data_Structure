@@ -8,8 +8,11 @@ class LinkedList:
     def getHead(self)->Node:
         return self.__head
     
-    def getNodeCount(self):
+    def getNodeCount(self)->int:
         return self.__count
+    
+    def setNodeCount(self, i):
+        self.__count = i
     
     def isEmpty(self):
         return self.getNodeCount() == 0
