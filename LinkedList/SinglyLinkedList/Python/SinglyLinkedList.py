@@ -31,7 +31,7 @@ class SinglyLinkedList(LinkedList):
         return current
 
 def test():
-    SinglyLinkedList()
+    sll = SinglyLinkedList()
 
 if __name__ == "__main__":
     test()
