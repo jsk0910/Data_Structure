@@ -1,1 +1,1 @@
-__all__ = ["LinkedList", "Node", "SinglyLinkeList"]
+__all__ = ["BasicLinkedList", "Node", "SinglyLinkeList"]
