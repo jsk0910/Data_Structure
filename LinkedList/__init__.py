@@ -1,3 +1,4 @@
 from .BasicLinkedList import *
 from .Node import *
-__all__ = ["BasicLinkedList", "Node"]
+from .SinglyLinkedList.Python.SinglyLinkedList import SinglyLinkedList
+__all__ = ["BasicLinkedList", "Node", "SinglyLinkedList"]

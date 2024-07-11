@@ -1,0 +1,6 @@
+README.md
+setup.py
+DS_jsk.egg-info/PKG-INFO
+DS_jsk.egg-info/SOURCES.txt
+DS_jsk.egg-info/dependency_links.txt
+DS_jsk.egg-info/top_level.txt
