@@ -11,6 +11,7 @@ class SinglyLinkedList(BasicLinkedList):
                 return 0
             self.setHead(NewNode)
             return 1
+        print(self.getNodeCount())
         if self.getNodeCount() <= i:
             return 0
         current = self.getHead()
