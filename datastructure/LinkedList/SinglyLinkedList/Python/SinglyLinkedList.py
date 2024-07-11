@@ -10,15 +10,16 @@ class SinglyLinkedList(BasicLinkedList):
             if i > 0:
                 return 0
             self.setHead(NewNode)
+            self.setNodeCount(1)
             return 1
-        print(self.getNodeCount())
-        if self.getNodeCount() <= i:
+        if self.getNodeCount() < i:
             return 0
         current = self.getHead()
-        print(current)
+        
         while i > 0:
             current = current.getNext()
             i -= 1
+        print(current)
         if current.getNext() == None:
             current.setNext(NewNode)
         else:
@@ -48,6 +49,7 @@ class SinglyLinkedList(BasicLinkedList):
 def test():
     sll = SinglyLinkedList()
     sll.insertAfter(0, Node(1))
+    print(sll.getNodeCount())
     sll.insertAfter(1, Node(2))
     node = sll.searchNode(1)
     print(node.getItem())
