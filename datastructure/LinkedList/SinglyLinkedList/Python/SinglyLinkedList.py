@@ -1,5 +1,5 @@
-from Data_Structure.LinkedList.BasicLinkedList import *
-from DS.LinkedList.Node import *
+from datastructure.LinkedList.BasicLinkedList import *
+from datastructure.LinkedList.Node import *
 
 class SinglyLinkedList(BasicLinkedList):
     def __init__(self):
