@@ -35,6 +35,9 @@ class SinglyLinkedList(BasicLinkedList):
             if current != RemoveNode:
                 prev = current
                 current = current.getNext()
+            else:
+                break
+        
     
     def searchNode(self, Location:int):
         i = 0
