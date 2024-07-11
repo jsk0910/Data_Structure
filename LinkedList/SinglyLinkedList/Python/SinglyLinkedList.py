@@ -1,5 +1,5 @@
-from LinkedList.BasicLinkedList import *
-from LinkedList.Node import *
+from BasicLinkedList import *
+from Node import *
 
 class SinglyLinkedList(BasicLinkedList):
     def __init__(self):
