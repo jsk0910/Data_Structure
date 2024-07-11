@@ -7,7 +7,9 @@ class SinglyLinkedList(BasicLinkedList):
     
     def insertAfter(self, i, NewNode:Node)->int:
         if self.isEmpty():
-            return 0
+            if i > 0:
+                return 0
+            self.__head = NewNode
         if self.getNodeCount() <= i:
             return 0
         current = self.getHead()
