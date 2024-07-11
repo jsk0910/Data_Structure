@@ -1,4 +1,4 @@
-from LinkedList.Node import *
+from datastructure.LinkedList.Node import *
 
 class BasicLinkedList:
     def __init__(self):
