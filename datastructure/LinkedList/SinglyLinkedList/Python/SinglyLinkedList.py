@@ -21,7 +21,7 @@ class SinglyLinkedList(BasicLinkedList):
         else:
             NewNode.setNext(current.getNext())
             current.setNext(NewNode)
-        self.setNodeCount(self.getNodeCount())
+        self.setNodeCount(self.getNodeCount()+1)
         return 1
 
     def removeNode(self, RemoveNode:Node):
