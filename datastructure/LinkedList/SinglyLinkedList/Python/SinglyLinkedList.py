@@ -37,7 +37,9 @@ class SinglyLinkedList(BasicLinkedList):
                 current = current.getNext()
             else:
                 break
-        
+        prev.setNext(current.getNext())
+        current.setNext(None)
+        self.setNodeCount(self.getNodeCount() - 1)
     
     def searchNode(self, Location:int):
         i = 0
@@ -55,6 +57,8 @@ def test():
     sll.insertAfter(1, Node(2))
     node = sll.searchNode(1)
     print(node.getItem())
+    sll.removeNode(sll.getHead().getNext())
+    print(sll.getNodeCount())
 
 if __name__ == "__main__":
     test()
