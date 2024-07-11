@@ -15,11 +15,10 @@ class SinglyLinkedList(BasicLinkedList):
         if self.getNodeCount() < i:
             return 0
         current = self.getHead()
-        
-        while i > 0:
+        while i-1 > 0:
             current = current.getNext()
             i -= 1
-        print(current)
+        
         if current.getNext() == None:
             current.setNext(NewNode)
         else:
