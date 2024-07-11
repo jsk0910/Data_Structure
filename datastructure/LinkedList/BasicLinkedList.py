@@ -11,6 +11,9 @@ class BasicLinkedList:
     def getNodeCount(self)->int:
         return self.__count
     
+    def setHead(self, NewNode: Node):
+        self.__haed = NewNode
+    
     def setNodeCount(self, i):
         self.__count = i
     
