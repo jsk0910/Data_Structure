@@ -12,7 +12,7 @@ class BasicLinkedList:
         return self.__count
     
     def setHead(self, NewNode: Node):
-        self.__haed = NewNode
+        self.__head = NewNode
     
     def setNodeCount(self, i):
         self.__count = i

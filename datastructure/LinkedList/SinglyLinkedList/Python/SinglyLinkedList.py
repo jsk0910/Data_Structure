@@ -9,7 +9,7 @@ class SinglyLinkedList(BasicLinkedList):
         if self.isEmpty():
             if i > 0:
                 return 0
-            self.__head = NewNode
+            self.setHead(NewNode)
         if self.getNodeCount() <= i:
             return 0
         current = self.getHead()
