@@ -1,4 +1,4 @@
-from BasicLinkedList import *
+from DS.LinkedList.BasicLinkedList import *
 from Node import *
 
 class SinglyLinkedList(BasicLinkedList):
